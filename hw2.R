@@ -25,7 +25,7 @@ mean_pat <- mean(profit.after.tax)
 mean_pat
 
 #Find The Months With Above-Mean Profit After Tax
-good.months <- profit > mean_pat
+good.months <- profit.after.tax > mean_pat
 good.months
 
 #Bad Months Are The Opposite Of Good Months !
