@@ -113,3 +113,10 @@ myplot(FieldGoals/Games)
 myplot(FieldGoals/FieldGoalAttempts)
 myplot(FieldGoalAttempts/Games)
 myplot(Points/Games)
+
+
+f <- function(vector=1:3){
+    vector * 5
+}
+
+f() + f(c(1,1,1))
